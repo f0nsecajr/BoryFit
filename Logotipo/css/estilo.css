@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+
+#topo{
+    width: 100%;
+    height: 35px;
+    background-color: #838282;
+    position: fixed;    
+}
+
+.largurasite{
+    width: 900px;
+    margin: auto; /*centraliza a divisão na página*/
+}
+
+#logo{
+    width: 140px;
+    height: 24px;    
+    float: left;
+    margin-top: 3px;
+}
+
+#menu{
+    width: auto;
+    height: 24px;
+    line-height: 30px;
+    float: right;
+}
+
+#menu a{
+    color: #fffdfd;
+    font-size: 17px;
+    text-decoration: none;
+    margin-left: 51px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#conteudohome{
+    width: 550px;
+    float: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    color: #ffffff;
+    font-size: 45px;
+}
+
+p{
+    color: #ffffff;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+}
+
+.imghome{
+    margin-top: 60px;
+}
+
+.imgdestaque{
+    margin-top: 30px;
+}
+.imgservico{
+    float: right;
+    margin-left: 30px;    
+}
+#conteudoservico{
+    float: left;
+}
+li{
+    color: #ffffff;
+    list-style-type: circle;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px;
+}
+
+input[type=text]{
+    width: 400px;
+    height: 25px;
+    border-style: double ;
+}
+
+input[type=submit]{
+    width: 100px;
+    height: 25px;
+    margin-top: 10px;
+}
+textarea{
+    width: 400px;
+    height: 100px;
+    resize: none;
+
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    margin-bottom: 100px;
+}
+
+#rodape{
+    text-align: center;
+    width: 100%;
+    float: left;
+    background-color: rgb(0, 0, 0);
+    margin-top: 20px;
+}
